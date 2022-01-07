@@ -1,0 +1,93 @@
+div{
+
+    background-color:#e4e1e1;
+    color:#fafaff;
+    width:263px;
+    border-color: #b6b3b3 #000000;
+    border-width:4px;
+    border-style:solid;
+    border-radius:8px;
+    margin:60px 0;
+
+}
+.password,
+.u{
+
+    background-color:#00000000;
+    text-align:right;
+    color: #212121;
+    border:none;
+    border-color:#00000000;
+    border-style:solid;
+    font-size:18px;
+    
+    -ms-text-autospace: inherit;
+
+}
+img{
+
+  width:40px;
+  height:40px;
+
+
+}
+
+.imgl{
+
+margin:0 32% 0 0;
+
+}
+
+
+.imgs{
+
+    margin:0 0  0 32% ;
+
+}
+
+form{
+
+    margin:110px 35%;
+
+}
+body{
+
+    background-color:#212121;
+
+}
+.u{
+    width:97%;
+}
+.imagep{
+    margin:-6px 1px;
+    width:24px;
+    height:24px;
+}
+.b{
+    display:inline;
+    margin:0 50% 0 25%;
+    width:100px;
+    height: 50px;
+    font-size:18px;
+    color:cornsilk;
+    background:#212121;
+    border-radius:5px;
+    border-color:#e4dbdb;
+    border-width:2px;
+    border-style:solid;
+}
+p{
+    font-size:50px;
+    margin:0% 0% 0% 0%;
+    text-transform:uppercase;
+    color:#ffffff;
+}
+.oma{
+
+white-space:nowrap;
+text-overflow:ellipsis;
+font-size:12px;
+width:190px;
+background:#ff0000;
+
+}
