@@ -1,16 +1,16 @@
 div{
-
-    display:inline-block;
     background-color:#e4e1e1;
     color:#fafaff;
-    width:120%;
-    height:190px;
+    width:40%;
+    height:36px;
     border-color: #b6b3b3 #000000;
     border-width:4px;
     border-style:solid;
     border-radius:8px;
     margin:60px 0;
-
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 .password,
 .u{
@@ -22,58 +22,43 @@ div{
     border-color:#00000000;
     border-style:solid;
     font-size:18px;
-
-
-}
-.password{
-    display:inline-block;
-    width:84%;
 }
 img{
-
   width:40px;
   height:40px;
-
-
 }
 
 .imgl{
-
 margin:0 32% 0 0;
-
 }
-
-
 .imgs{
-
     margin:0 0  0 32% ;
-
 }
-
 form{
-
-    margin:110px 35%;
-
+    margin:0 0 0 34%;
+    align-items:center;
+    justify-content: center;
 }
 body{
-
     background-color:#212121;
-
+    font-family: 'Tajawal', sans-serif;
 }
 .u{
     width:97%;
 }
 .imagep{
-    margin:5% 1px;
     width:10%;
-    height:1%;
+    height:75%;
     float:left;
+    display:flex;
+    align-items:center;
+    justify-content: center;
 }
 .b{
-    display:inline;
-    margin:0 50% 0 25%;
-    width:100px;
-    height: 50px;
+   
+    margin:0 0 0 12%;
+    width:min-content;
+    height: 45px;
     font-size:18px;
     color:cornsilk;
     background:#212121;
@@ -84,4 +69,12 @@ body{
 }
 .clear{
     clear:left;
+}
+span{
+    margin-bottom:15px;
+    color:#ffffff;
+    font-size:23px;
+    text-align:center;
+    align-items: center;
+    padding-bottom:20px;
 }
