@@ -1,8 +1,10 @@
 div{
 
+    display:inline-block;
     background-color:#e4e1e1;
     color:#fafaff;
-    width:263px;
+    width:120%;
+    height:190px;
     border-color: #b6b3b3 #000000;
     border-width:4px;
     border-style:solid;
@@ -12,7 +14,7 @@ div{
 }
 .password,
 .u{
-
+    outline:none;
     background-color:#00000000;
     text-align:right;
     color: #212121;
@@ -20,9 +22,12 @@ div{
     border-color:#00000000;
     border-style:solid;
     font-size:18px;
-    
-    -ms-text-autospace: inherit;
 
+
+}
+.password{
+    display:inline-block;
+    width:84%;
 }
 img{
 
@@ -59,9 +64,10 @@ body{
     width:97%;
 }
 .imagep{
-    margin:-6px 1px;
-    width:24px;
-    height:24px;
+    margin:5% 1px;
+    width:10%;
+    height:1%;
+    float:left;
 }
 .b{
     display:inline;
@@ -76,18 +82,6 @@ body{
     border-width:2px;
     border-style:solid;
 }
-p{
-    font-size:50px;
-    margin:0% 0% 0% 0%;
-    text-transform:uppercase;
-    color:#ffffff;
-}
-.oma{
-
-white-space:nowrap;
-text-overflow:ellipsis;
-font-size:12px;
-width:190px;
-background:#ff0000;
-
+.clear{
+    clear:left;
 }
