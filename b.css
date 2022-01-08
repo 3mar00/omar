@@ -1,4 +1,4 @@
-div{
+form div{
     background-color:#e4e1e1;
     color:#fafaff;
     width:40%;
@@ -23,16 +23,20 @@ div{
     border-style:solid;
     font-size:18px;
 }
-img{
+.img{
   width:40px;
   height:40px;
+  position:absolute;
+  right:45%;
 }
 
 .imgl{
-margin:0 32% 0 0;
+position:relative;
 }
 .imgs{
-    margin:0 0  0 32% ;
+    position:absolute;
+
+    right:0px;
 }
 form{
     margin:0 0 0 34%;
@@ -47,12 +51,12 @@ body{
     width:97%;
 }
 .imagep{
-    width:10%;
-    height:75%;
     float:left;
     display:flex;
     align-items:center;
     justify-content: center;
+    width:35px;
+    height:35px;
 }
 .b{
    
@@ -71,6 +75,8 @@ body{
     clear:left;
 }
 span{
+    position:absolute;
+    right:50%;
     margin-bottom:15px;
     color:#ffffff;
     font-size:23px;
